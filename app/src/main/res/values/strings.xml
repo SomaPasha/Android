@@ -5,4 +5,11 @@
     <string name="clickMe">Нажми меня!!!</string>
     <string name="veryGood">Очень хорошо</string>
     <string name="readyAdventure">Готов к приключениям</string>
+    <string name="textEmailAddress">Введите свою почту</string>
+    <string name="textPassword">Введите пароль</string>
+    <string name="text">Введите пароль</string>
+    <string name="textPersonName">Ваше имя</string>
+    <string name="phone">Ваш номер телефона</string>
+    <string name="number">Ваше любимое число</string>
+    <string name="time">Время</string>
 </resources>
