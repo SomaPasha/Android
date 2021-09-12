@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Appls1</string>
+    <string name="welcom">Добро Пожаловать</string>
+    <string name="age">Возраст</string>
+    <string name="clickMe">Нажми меня!!!</string>
+    <string name="veryGood">Очень хорошо</string>
+    <string name="readyAdventure">Готов к приключениям</string>
 </resources>
