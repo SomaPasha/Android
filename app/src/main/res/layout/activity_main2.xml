@@ -80,7 +80,7 @@
             android:inputType="time"
             android:textSize="10dp"></EditText>
     </LinearLayout>
-    >
+
 
     <CalendarView
         android:id="@+id/calendarView"
