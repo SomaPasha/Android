@@ -5,40 +5,42 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
         <EditText
             android:id="@+id/editTextEmailAddress"
-            android:ems="12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:ems="12"
             android:hint="@string/textEmailAddress"
             android:inputType="textEmailAddress"
-            android:textSize="10dp"
-            >  </EditText>
+            android:textSize="10dp"></EditText>
+
         <EditText
             android:id="@+id/editTextPassword"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="@string/textPassword"
             android:inputType="textPassword"
-            android:textSize="10dp"
-            >  </EditText>
+            android:textSize="10dp"></EditText>
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
         <EditText
             android:id="@+id/editText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="@string/text"
             android:inputType="text"
-            android:textSize="10dp"
-            >  </EditText>
+            android:textSize="10dp"></EditText>
 
         <EditText
             android:id="@+id/editTextPersonName"
@@ -46,21 +48,21 @@
             android:layout_height="wrap_content"
             android:hint="@string/textPersonName"
             android:inputType="textPersonName"
-            android:textSize="10dp"
-            >  </EditText>
+            android:textSize="10dp"></EditText>
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
         <EditText
             android:id="@+id/editPhone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="@string/phone"
             android:inputType="phone"
-            android:textSize="10dp"
-            >  </EditText>
+            android:textSize="10dp"></EditText>
 
         <EditText
             android:id="@+id/editNumber"
@@ -68,8 +70,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/number"
             android:inputType="number"
-            android:textSize="10dp"
-            >  </EditText>
+            android:textSize="10dp"></EditText>
 
         <EditText
             android:id="@+id/editTime"
@@ -77,10 +78,13 @@
             android:layout_height="wrap_content"
             android:hint="@string/time"
             android:inputType="time"
-            android:textSize="10dp"
-            >  </EditText>
-    </LinearLayout>>
+            android:textSize="10dp"></EditText>
+    </LinearLayout>
+    >
 
-
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></CalendarView>
 
 </LinearLayout>
